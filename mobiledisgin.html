@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            .pagelevelcontainer{
+                height:100%;
+                width:100%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                position: fixed;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap:10px;
+            }
+            .item {
+
+                height:50px;
+                flex: 1 1 100%;
+                background-color: rgb(242, 238, 238);
+                display: flex;
+                margin: 50px;
+
+            }
+            @media( min-width: 1280px){
+                .item{
+                    flex: 1 1 calc(25% - 10px);
+                }
+            }
+        </style>
+        </head>
+        <body>
+            <div class="pagelevelcontainer">
+                <div class="item">1</div>
+                <div class="item">23</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">4</div>
+                <div class="item">4</div>
+                <div class="item">4</div>
+                <div class="item">4</div>
+                <div class="item">4</div>
+
+            </div>
+        </body>
+    
+</html>
